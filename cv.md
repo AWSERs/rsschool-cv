@@ -1,5 +1,5 @@
 # Yakushev Fedor 
-<img class="img" width=133px align="right" alt="foto" border-radius= "0px 100px / 100px" src="https://hhcdn.ru/photo/632886831.jpeg?t=1640423206&h=o6e6li9kT86gKyoboiJcEA">
+<img class="img" width=150px align="right" alt="foto" border-radius= "0px 100px / 100px" src="https://hhcdn.ru/photo/632886831.jpeg?t=1640423206&h=o6e6li9kT86gKyoboiJcEA">
 
 ## Contacts information
 
@@ -32,7 +32,7 @@
 * Professional development, courses: "Frontend development Fundamentals"</br> within the  Digital Professions program,
 INNOPOLIS UNIVERSITY
 
----
+
 
 ## Skills
 
@@ -45,7 +45,7 @@ INNOPOLIS UNIVERSITY
 - High typing speed
 - Basic knowledge of English language (reading the text) - A2
 
----
+
 ## Programming experience
 <pre>
 * const fibonacci = (function() {
