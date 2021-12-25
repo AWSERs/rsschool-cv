@@ -25,3 +25,41 @@
 	- initiative (willingness to offer your ideas when working on a project)
 
 ---
+## Education
+
+* Master degree - Volgograd State Technical University
+
+* Professional development, courses: "Frontend development Fundamentals"</br> within the  Digital Professions program,
+INNOPOLIS UNIVERSITY
+
+---
+
+## Skills
+
+- Knowledge of Microsoft Office package (Word, Excel - pivot tables, formulas, graphs, diagrams, etc; Visio, Power Point, Outlook)
+- Basic knowledge of HTML and CSS, Java Script
+- Basic knowledge of JS frameworks - React and Redux
+- Knowledge of BEM methodology
+- Knowledge of general principles of software analysis, design, development and testing
+- Basic knowledge of graphic programs - AUTOCAD
+- High typing speed
+- Basic knowledge of English language (reading the text) - A2
+
+---
+## Programming experience
+<pre>
+* const fibonacci = (function() {
+    let first = 0;
+    let second = 1;
+    let temp = 0;
+
+    return function () {
+        temp = first;
+        first = second;
+        second = first + temp;
+        return temp;
+    };
+})();
+fibonacci();
+</pre>
+* https://gitlab.com/YakushevFedorN/yakushev_fedor_pcs_frontend_21_09_homeworks/-/tree/develop
