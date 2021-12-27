@@ -1,23 +1,145 @@
+
 .wraper {
 	display: flex;
+	margin: 50px auto;
+	max-width: 1440px;
+	font-family: 'Montserrat', sans-serif;
 }
+
 .main-content {
+	margin-top: 50px;
+	margin: 0 50px;
+	max-width: 125em;
+	padding-right: 5em;
 }
+
 .main-content__title {
+	margin: 20px 0;
 }
-.main-content__item-about-myself {
+
+.main-content h2 {
+	margin-bottom: 10px;
 }
-.main-content__item-education {
+
+.main-content__code{
+	font-size: 16px;
+	
 }
-.main-content__item-skill {
+
+.main-content__code-item{
+	display: block;
+	font-family: 'Montserrat', sans-serif;
+	padding-top: 10px;
 }
-.main-content__item-experience {
-}
+
 .aside-content {
+	margin: 20px;
 }
+
 .aside-content__img {
+	min-width: 220px;
+	margin-bottom: 70px;
 }
-.aside-content__contacts {
+
+.aside-content__img img{
+	border-radius: 50%;
 }
-.aside-content__level {
+
+.aside-content__contact {
+	margin-top: 20px;
 }
+
+.contact__mail{
+	padding: 6px 0;
+
+}
+
+.contact__discord{
+	padding: 6px 0 6px 0;
+	color: blue;
+}
+
+.aside-content__contact p {
+	padding-top: 6px;
+}
+
+.aside-content__contact h2{
+	margin-bottom: 18px;
+}
+
+a{
+text-decoration: none;
+}
+
+a:hover {
+	color:red;
+}
+li{
+	line-height: 30px;
+}
+.aside-content__level{
+	margin-top: 20px;
+	position: relative;
+	max-width: 300px;
+}
+
+.aside-content__level li {
+	margin-right: 215px;
+}
+
+.aside-content__level li:nth-child(1):after {
+	content: "\2605  \2605  \2606  \2606  \2606";
+	margin-right: 5px;
+	position: absolute;
+	right: 0;
+	top: 50px;
+	color: blue;
+	font-size: 27px;
+	
+}
+
+.aside-content__level li:nth-child(2):after {
+	content: "\2605  \2605  \2605  \2605  \2606";
+	margin-right: 5px;
+	position: absolute;
+	right: 0;
+	top: 80px;
+	color: blue;
+	font-size: 27px;
+	
+}
+
+.aside-content__level li:nth-child(3):after {
+	content: "\2605  \2605  \2605  \2606  \2606";
+	margin-right: 5px;
+	position: absolute;
+	right: 0;
+	top: 110px;
+	color: blue;
+	font-size: 27px;
+	
+}
+
+.aside-content__level li:nth-child(4):after {
+	content: "\2605  \2605  \2606  \2606  \2606";
+	margin-right: 5px;
+	position: absolute;
+	right: 0;
+	top: 140px;
+	color: blue;
+	font-size: 27px;
+	
+}
+
+.aside-content__level li:nth-child(5):after {
+	content: "\2605  \2606  \2606  \2606  \2606";
+	margin-right: 5px;
+	position: absolute;
+	right: 0;
+	top: 170px;
+	color: blue;
+	font-size: 27px;
+	
+}
+
+
