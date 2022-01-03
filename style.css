@@ -2,12 +2,9 @@
 	font-family: 'Montserrat', sans-serif;
 }
 
-.header {
+.header__wraper {
 	max-width: 1440px;
 	margin: 0 auto;
-}
-
-.header__wraper {
 	display: flex;
 }
 
@@ -204,3 +201,10 @@ li{
 	width: 100px;
 }
 
+.footer__img img {
+	width: 100%;
+}
+
+.footer__img img:hover{
+	border: 2px solid blue;
+}
