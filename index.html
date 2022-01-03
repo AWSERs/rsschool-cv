@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style-reset.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+	<title>CV</title>
+</head>
+<body>
+	<header>
+		<div class="header__wraper">
+			<h2 class="header__title">Fedor Yakushev</h2>
+			<nav class="header__menu">
+				<ul class="menu__item">
+					<li><a href="#skill">Skills</a></li>
+					<li><a href="#education">Education</a></li>
+					<li><a href="#code__example">Code example</a></li>
+					<li><a href="#contacts">Contacts</a></li>
+					<li><a href="#knowledge">Knowledge</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<div class="wraper">
+		<div class="aside-content">
+			<div class="aside-content__img">
+				<img src="./foto.jpeg" alt="foto">
+			</div>
+			<div id="contacts" class="aside-content__contact">
+				<h2>Contacts</h2>
+				<div class="contact__tell">
+					<span>Mobile phone:<a href="tel:+79850855356"> +7 (985)-085-53-56</a></span>
+				</div>
+				<div class="contact__mail">
+					<span>Email: <a href="mailto:Fedor.yakushev92@mail.ru">Fedor.yakushev92@mail.ru</a></span>
+				</div>
+				<span>Discord:<span class="contact__discord"> Fedor Yakushev (@AWSERs)</span></span>
+				<p>Moscow</p>
+			</div>
+			<div id="knowledge" class="aside-content__level">
+				<h2>Knowledge</h2>
+				<ul>
+					<li>English</li>
+					<li>HTML</li>
+					<li>CSS</li>
+					<li>JS</li>
+					<li>React</li>
+				</ul>		
+			</div>
+		</div>
+		<main class="main-content">
+			<h1 class="main-content__title">Fedor Yakushev</h1>
+			<div>
+				<h2>Web Developer / Junior Front-End Developer</h2>
+				<h2>Aboute Me</h2>
+				<p> Aimed at changing the working sphere, ready to gain experience and skills and continue development in IT</p>
+				<ul>
+					<li>Sociability (always in touch in case of remote work)</li>
+					<li>Purposefullnes</li>
+					<li>Responsibility</li>
+					<li>Punctuality (ability to perform work within a clearly defined time frame)</li>
+					<li>Result oriented</li>
+					<li>Fast learning</li>
+					<li>Ability to work in a team, listen to colleagues</li>
+					<li>Creative approach</li>
+					<li>Initiative (willingness to offer your ideas when working on a project)</li>
+				</ul>
+			</div>
+			<div>
+				<div id="skill">
+					<h2>Skills</h2>
+					<ul>
+						<li>Knowledge of Microsoft Office package (Word, Excel - pivot tables, formulas, graphs, diagrams, etc; Visio,
+							Power Point,
+							Outlook)</li>
+						<li>Basic knowledge of HTML and CSS, Java Script</li>
+						<li>Basic knowledge of JS frameworks - React and Redux</li>
+						<li>Knowledge of BEM methodology</li>
+						<li>Knowledge of general principles of software analysis, design, development and testing</li>
+						<li>Basic knowledge of graphic programs - AUTOCAD</li>
+						<li>High typing speed</li>
+						<li>Basic knowledge of English language (reading the text) - A2</li>
+					</ul>
+				</div>
+				<div id="education">
+					<h2>Education</h2>
+					<ul>
+						<li>Master degree - Volgograd State Technical University</li>
+						<li>Professional development, courses: "Frontend development Fundamentals" within the Digital Professions
+							program,
+							INNOPOLIS UNIVERSITY</li>
+					</ul>
+				</div>
+			</div>
+			<div id="code__example">
+				<h2>Code example</h2>
+				<div class="main-content__code">
+					<pre>
+	const fibonacci = (function() {
+	let first = 0;
+	let second = 1;
+	let temp = 0;
+									
+	return function () {
+	temp = first;
+	first = second;
+	second = first + temp;
+	return temp;
+	};
+	})();
+	fibonacci();	<span class="main-content__code-item">More examples - <a class="code__item" href="https://gitlab.com/YakushevFedorN/yakushev_fedor_pcs_frontend_21_09_homeworks/-/tree/develop">Gitlab</a></span>
+					</pre>
+				</div>
+			</div>
+		</main>
+	</div>
+	<footer class="footer">
+		<div class="footer__wraper">
+			<h2>2021</h2>
+			<div class="footer__img">
+				<a href="https://github.com/AWSERs"><img src="github_PNG28.png" alt="github"></a>
+			</div>
+			<div class="footer__img">
+				<a href="https://rs.school/"><img src="rsslogo.JPG" alt="logo Rolling Scopes"></a>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
