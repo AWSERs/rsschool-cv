@@ -7,6 +7,11 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="/styleReset.css">
 	<link rel="stylesheet" href="/style.css">
 	<title>Portfolio</title>
@@ -25,7 +30,7 @@
 								<li>Video</li>
 								<li>Price</li>
 								<li>Contacts</li>
-								<li><span>en</span> / ru</li>
+								<li><span class="header__wrapper-item">en</span> / ru</li>
 							</ul>
 						</nav>
 					</header>
@@ -202,20 +207,20 @@
 				</section>
 				<section class="contacts">
 					<div class="contacts__wrapper">
-						<form action="">
+						<form action="" class="contacts__wrapper-form">
 						<div class="contacts__wrapper-title">
 							Contact me
 						</div>
 						<div class="contacts__wrapper-email">
-							<input type="email">
+							<input type="email" placeholder="E-mail">
 						</div>
 						<div class="contacts__wrapper-phone">
-							<input type="tel">
+							<input type="tel" placeholder="Phone">
 						</div>
 						<div class="contacts__wrapper-message">
-							<input type="text">
+							<input type="text" placeholder="Message">
 						</div>
-						<button type="submit">
+						<button type="submit" class="contacts__wrapper-button">
 							Send message
 						</button>
 						</form>
@@ -223,20 +228,20 @@
 				</section>
 			</main>
 			<footer class="footer">
-				<div class="footer__item">
-					<div>©</div>
-					<div>2022</div>
-					<div>github</div>
+				<div class="footer__date">
+					<div class="footer__date-item">©</div>
+					<div class="footer__date-item">2022</div>
+					<div class="footer__date-item">github</div>
 				</div>
-				<div class="foter__item">
+				<div>
 					Rolling Scopes School
 				</div>
 				<nav>
-					<ul>
-						<li><img src="" alt="logo"></li>
-						<li><img src="" alt="logo"></li>
-						<li><img src="" alt="logo"></li>
-						<li><img src="" alt="logo"></li>
+					<ul class="footer__item">
+						<li><img src="/portfolio/img/inst 1.png" alt="logo"></li>
+						<li><img src="/portfolio/img/fb 1.png" alt="logo"></li>
+						<li><img src="/portfolio/img/tw 1.png" alt="logo"></li>
+						<li><img src="/portfolio/img/pinterest 1.png" alt="logo"></li>
 					</ul>
 				</nav>
 			</footer>
