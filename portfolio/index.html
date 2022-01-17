@@ -4,6 +4,11 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="/styleReset.css">
+	<link rel="stylesheet" href="/style.css">
 	<title>Portfolio</title>
 </head>
 <body>
@@ -11,16 +16,16 @@
 				<section class="info">
 					<header class="header">
 						<div class="header__logo">
-							<img src="" alt="logo">
+							<img src="./img/header__logo 1.svg" alt="logo">
 						</div>
 						<nav>
-							<ul>
+							<ul class="header__wrapper">
 								<li>Skills</li>
 								<li>Portfolio</li>
 								<li>Video</li>
 								<li>Price</li>
 								<li>Contacts</li>
-								<li><span>en</span>/ru</li>
+								<li><span>en</span> / ru</li>
 							</ul>
 						</nav>
 					</header>
@@ -35,50 +40,61 @@
 				</section>
 				<main class="main">
 				<section class="skills">
-					<p class="skills__title">Skills</p>
-					<div class="skills__item">
-						<div class="skills__item-logo">
-						</div>
-						<div class="skills__item-title">
-							Digital photography
-						</div>
-						<div class="skills__item-subtitle">
-							High-quality photos in the studio and on the nature
-						</div>
+					<div class="skills__title">
+						<span>Skills</span>
 					</div>
-					<div class="skills__item">
-						<div class="skills__item-logo">
+
+				<div class="skills__wrapper">
+						<div class="skills__item">
+							<div class="skills__item-logo">
+								<img src="./img/skills__camera 1.svg" alt="photo">
+							</div>
+							<div class="skills__item-title">
+								Digital photography
+							</div>
+							<div class="skills__item-subtitle">
+								High-quality photos in the studio and on the nature
+							</div>
 						</div>
-						<div class="skills__item-title">
-							Video shooting
+						<div class="skills__item">
+							<div class="skills__item-logo">
+								<img src="./img/skills__video 1.svg" alt="video">
+							</div>
+							<div class="skills__item-title">
+								Video shooting
+							</div>
+							<div class="skills__item-subtitle">
+								Capture your moments so that they always stay with you
+							</div>
 						</div>
-						<div class="skills__item-subtitle">
-							Capture your moments so that they always stay with you
+						<div class="skills__item">
+							<div class="skills__item-logo">
+								<img src="./img/skills-retouch__Vector.svg" alt="retouch">
+							</div>
+							<div class="skills__item-title">
+								Retouch
+							</div>
+							<div class="skills__item-subtitle">
+								I strive to make photography surpass reality
+							</div>
 						</div>
-					</div>
-					<div class="skills__item">
-						<div class="skills__item-logo">
+						<div class="skills__item">
+							<div class="skills__item-logo">
+								<img src="./img/slills__mic 1.svg" alt="mic">
+							</div>
+							<div class="skills__item-title">
+								Audio
+							</div>
+							<div class="skills__item-subtitle">
+								Professional sounds recording for video, advertising, portfolio
+							</div>
 						</div>
-						<div class="skills__item-title">
-							Retouch
-						</div>
-						<div class="skills__item-subtitle">
-							I strive to make photography surpass reality
-						</div>
-					</div>
-					<div class="skills__item">
-						<div class="skills__item-logo">
-						</div>
-						<div class="skills__item-title">
-							Audio
-						</div>
-						<div class="skills__item-subtitle">
-							Professional sounds recording for video, advertising, portfolio
-						</div>
-					</div>
+				</div>
 				</section>
 				<section class="portfolio">
-					<p class="portfolio__title">Portfolio</p>
+					<div class="portfolio__title">
+						<span>Portfolio</span>
+					</div>
 					<ul class="portfolio__switch">
 						<li>Winter</li>
 						<li>Spring</li>
