@@ -77,30 +77,30 @@ body{
   line-height: 80px;
 }
 
-.skills__title span {
+.skills__title h2 {
   position: relative;
 }
 
-.skills__title span::before{
+.skills__title h2::before{
   content: '';
   width: 300px;
   position: absolute;
   border: 1px solid #BDAE82;
   top: 50%;
-  right: 150px;
+  right: 340px;
 }
 
-.skills__title span::after{
+.skills__title h2::after{
   content: '';
   width: 300px;
   position: absolute;
   border: 1px solid #BDAE82;
   top: 50%;
-  left: 150px;
+  left: 340px;
 }
 
 .skills__item {
-  width: 320px;
+  width: 350px;
   color: #ffffff;
   text-align: center;
   margin: 0 30px;
@@ -144,26 +144,26 @@ body{
   line-height: 80px;
 }
 
-.portfolio__title span{
+.portfolio__title h2{
   position: relative;
 }
 
-.portfolio__title span::before{
+.portfolio__title h2::before{
   content: '';
   width: 300px;
   position: absolute;
   border: 1px solid #BDAE82;
   top: 50%;
-  right: 200px;
+  right: 300px;
 }
 
-.portfolio__title span::after{
+.portfolio__title h2::after{
   content: '';
   width: 300px;
   position: absolute;
   border: 1px solid #BDAE82;
   top: 50%;
-  left: 200px;
+  left: 300px;
 }
 
 .portfolio__switch {
@@ -215,26 +215,26 @@ body{
   line-height: 80px;
 }
 
-.video__title span {
+.video__title h2 {
   position: relative;
 }
 
-.video__title span::before {
+.video__title h2::before {
   content: '';
   width: 300px;
   position: absolute;
   border: 1px solid #BDAE82;
   top: 50%;
-  right: 150px;
+  right: 300px;
 }
 
-.video__title span::after{
+.video__title h2::after{
   content: '';
   width: 300px;
   position: absolute;
   border: 1px solid #BDAE82;
   top: 50%;
-  left: 150px;
+  left: 300px;
 }
 
 .video__img {
@@ -265,26 +265,26 @@ body{
   margin-bottom: 60px;
 }
 
-.price__title span {
+.price__title h2 {
   position: relative;
 }
 
-.price__title span::before{
+.price__title h2::before{
   content: '';
   width: 300px;
   position: absolute;
   border: 1px solid #BDAE82;
   top: 50%;
-  right: 150px;
+  right: 300px;
 }
 
-.price__title span::after{
+.price__title h2::after{
   content: '';
   width: 300px;
   position: absolute;
   border: 1px solid #BDAE82;
   top: 50%;
-  left: 150px;
+  left: 300px;
 }
 
 .price__wrapper {
@@ -336,7 +336,7 @@ body{
 
 .contacts {
   height: 700px;
-  background: url(./portfolio/img/contacts\ \(1\).jpg) no-repeat;
+  background: url(/portfolio/img/contacts_bg.jpg);
 }
 
 .contacts__wrapper {
