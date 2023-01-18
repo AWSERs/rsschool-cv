@@ -1,2 +1,2 @@
-# https://AWSERs.github.io/rsschool-cv/cv
+# http://AWSERs.github.io/rsschool-cv/cv
 # https://AWSERs.github.io/rsschool-cv/
